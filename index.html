@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style type="text/css">
+		body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(wpk.jpg);
+	background-size: cover;
+}
+.banner {
+	width: 100%;
+	height: 100px;
+}
+.navbar {
+	width: 85%;
+	margin: auto;
+	padding: 35px 0; 
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.switch {
+	width: 90px;
+	cursor: pointer;
+}
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.navbar ul li a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+.navbar ul li::after {
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.3s;
+}
+.navbar ul li:hover::after {
+	width: 100%;
+}
+.content {
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	color: #fff; 
+}
+.content h1 {
+	margin: auto;
+	font-size: 55px;
+	color: #009688;
+}
+.content p {
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 20px;
+	color: pink;
+}
+button {
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 3px solid #009688;
+	background: transparent;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+span {
+	background: #009688;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -2;
+	transition: 0.3s;
+}
+button:hover span {
+	width: 100%;
+}
+button:hover {
+	border: none;
+}
+.content h2 {
+	margin: 20px auto;
+	font-size: 40px;
+	font-family: sans-serif;
+	color: #009688;
+}
+.content h3 {
+	margin: 20px auto;
+	font-size: 40px;
+	font-family: sans-serif;
+	color: #009688;
+}
+
+	</style>
+</head>
+<body>
+	<div class="banner">
+		<div class="navbar">
+			<img src="switch.png" class="switch ">
+			<ul>
+				<li><a href="#" title="Home">Home</a></li>
+				<li><a href="#" title="Products">Products</a></li>
+				<li><a href="#" title="Services">Services</a></li>
+				<li><a href="#" title="Contacts">Contacts</a></li>
+				<li><a href="#" title="Sign Up">Sign Up</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<h1>NIFFILER DESIGNS</h1>
+			<p>Programming primarily uses English words, but everyone worldwide uses the same programming language.<br> This means that with the help of programming language we can communicate amongs one another regardless of where we are from.<br> This will enable us to work together to create something unique & beautiful .<br> Programming allows us to take all the ideas we have in our heads and bring them to reality.</p>
+			<h2>Letter To My Love</h2>
+			   <p>My Dear Kolawole Nifemi, the love I “Aboyejo Ileriayo” have towards you, trust me I don’t think any other guy can love you like I do.<br> I never knew I could fall in love with a girl until the day I sought my eyes on you, the first day I got into Royal College.<br> During my stay in RCI I had a strong feeling (CRUSH) on you, I don’t know if you ever noticed?<br> But I was still a boy back then I never had the courage to walk up to you, unlike my bestie “Ayo Micheal”.</p>
+			   <p>
+			   	It was when I left RCI I knew we had a connection, there is no day that goes by without me thinking of you.<br>It was at this point I figured out that “I can’t do without you”.<br>I’ve had opportunities to fall in love with other girls but because of the Love, Trust & Respect I have for you, I declined.
+			   	<br>
+			   	<br>
+			   	I know you reading this may not believe, but trust me I love you so much. There is a popular saying that says;<br> “Men are scum” but trust me I’m not one of those men. The only thing I regret as at now is that;<br> we didn’t have time to discuss/exchange pleasantries at Shiloh 2022. If I had that chance<br> I would have shot my shot and know by now I’m worthy of you or not.
+			   	<br>
+			   	<br>
+			   	I don’t know why I’m so into you? I have been advised friends & family members to stop thinking about<br> someone who doesn’t even know you are thinking about her, but lover boy won’t give up.<br> To make it more interesting you told me to move on but I don’t know why I can’t stop thinking about you.<br> I dream of you always, I close my eyes I see you, so I came to a conclusion that the answer to my worries is “We are made for each other”.
+			   	</p>
+			   	<h3>Conclusion</h3>
+			   	<p>
+			   	In conclusion, I know after reading my trash you won’t even see the value because I know you have someone you are in love with<br> but I just want you to know that I love you no matter what.<br> Please find a place for me in your heart.
+			   </p>
+			   <h2>Do You Love Me</h2>
+			<div>
+				<button type="button"><span></span>YES</button>
+				<button type="button"><span></span>NO</button>
+			</div>
+			<audio src="starr.mp3" controls>	
+	             <embed 
+		            src="starr.mp3"
+					width="300"
+					height="90"
+					loop="true"
+					autostart="true"
+					autoplay="true">
+			</audio>
+		</div>
+	</div>
+</body>
+</html>
